@@ -1,20 +1,23 @@
 .blog-section {
-    width: 800px;
-    background-color: white;
+    width: 740px;
+    
 
     display: grid;
     gap: 20px;
 }
 
 .blog {
-    background-color: lightcyan;
-    width: 600px;
+    /* background-color: lightcyan; */
+    background-color: white;
+    width: 700px;
     padding: 10px;
     display: flex;
+
+    border: 1px solid rgba(198, 195, 195, 0.5);
 }
 
 .blog-left {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 150px;
     display: flex;
 }
@@ -23,6 +26,8 @@
     width: 50px;
     height: 50px;
     border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 18px;
@@ -62,6 +67,8 @@
 }
 
 .blog-title {
+    color: rgb(38, 37, 37);
+    text-decoration: none;
     font-size: 20px;
     font-weight: 500;
 }
